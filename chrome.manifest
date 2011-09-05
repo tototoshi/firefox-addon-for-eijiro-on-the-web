@@ -1,0 +1,3 @@
+content alc jar:chrome/alc.jar!/content/
+overlay chrome://browser/content/browser.xul chrome://alc/content/alc.xul
+

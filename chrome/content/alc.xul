@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<overlay id="alc" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="sprintf-0.7-beta1.js" />
+  <script type="application/x-javascript" src="alc.js">
+  </script>
+
+  <keyset id="mainKeyset">
+    <key id="alc" modifiers="shift" key="A" oncommand="alc();"/>
+  </keyset>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="alc" label="英辞郎 on the web" accesskey="A"
+              insertafter="context-bookmarkpage" oncommand="alc();"/>
+  </popup>
+
+</overlay>
